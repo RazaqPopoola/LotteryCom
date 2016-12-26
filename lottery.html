@@ -1,0 +1,75 @@
+<!DOCTYPE html >
+<html  lang="en">
+	<head>
+		<title>Lottery Machine</title>
+		<link rel="stylesheet" href="lottery.css" />
+		<script src="lottery.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+				
+		<script>
+			$(document).ready(function(){
+				$("button").click(function(){
+				
+					controller();
+				});
+					
+			});
+		</script>
+	</head>
+	
+	<body >
+	<header id="theHeader"></header>
+		<article id="container">
+			<section>
+				<h3>Each Play Costs €1 You Play on Your Own Risk</h3>
+					<table id="table">
+						<tr>
+							<td id="labDraw"  colspan="4">Lottery  Draw Numbers</td>
+						</tr>
+						<tr>
+							<td id="slot0"></td>
+							<td id="slot1"></td>
+							<td id="slot2"></td>
+							<td id="slot3"></td>
+							<td id="slot4"></td>
+							<td id="slot5"></td>
+						</tr>
+						<tr>
+							<td id="labhead"  colspan="6">Player Lottery Numbers</td>
+						</tr>
+						<tr>
+							<td id="player0" ><label id="lab"> </label></td>
+							<td id="player1"  ><label  id="lab"> </label></td>
+							<td id="player2"  ><label  id="lab"> </label></td>
+							<td id="player3"  ><label  id="lab"> </label></td>
+							<td id="player4"  ><label  id="lab"> </label></td>
+							<td id="player5"  ><label  id="lab"> </label></td>
+						</tr>
+						<tr>
+							<td id="labDraw"  colspan="6"><button type="button"  id="btn" >Run the Lottery</button> </td>
+						</tr>
+				</table>
+			</section>
+			<article>
+				<section>
+					<div id="sometext"> Start Game</div>
+				</section>
+				<section>
+					<div class="balance">
+						<p id="balance">Balance: €10.00</p>
+					</div>
+				</section>
+				<section>
+					<p id="credits">Money won €0.00<p>
+				</section>
+		</article>
+		</article>
+		
+	<footer id="theFooter">
+		copyright Ayoob Nazar 2016
+	</footer>
+	</body>
+</html>
+
+
+

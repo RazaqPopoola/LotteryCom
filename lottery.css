@@ -1,0 +1,73 @@
+
+
+body{
+
+	background-color: #0FFFFF;
+}
+
+p, div{
+	color :red;
+}
+
+#container{
+
+	width: 1000px;
+	margin: 20px auto;
+	padding: 15px;
+	border: 5px solid black;
+	text-align: center;
+	color: red;
+	background-color: #000000;
+}
+
+
+#theHeader{
+
+		background-image:url("lottery1.png");
+		background-repeat:no-repeat;
+		width: 1000px;
+		height: 200px;
+		margin: 20px auto;
+		padding: 15px;
+		border: 5px solid black;
+}
+
+
+#main_header{
+
+
+	background-repeat:no-repeat;
+	width: 1000px;
+	height: 280px;
+	padding: 15px;
+	margin-top: auto;
+}
+
+#theFooter{
+
+		clear: both;
+		width: 1000px;
+		text-align: center;
+		padding: 15px;
+		margin: 20px auto;
+		border: 5px solid black;
+		color: white;
+		background-color: #000000;
+}
+
+#table{
+		
+		border: 5px solid black;
+		font: bold 32px Tahoma;
+		text-align: center;
+		margin-left:auto; 
+		margin-right:auto;
+}
+
+#table  td{
+
+		width:100px; 
+		height: 115px;
+		background-color: white;
+
+}
