@@ -6,7 +6,7 @@ body{
 }
 
 p, div{
-	color :red;
+	color :#0FFFFF;
 }
 
 #container{
@@ -16,14 +16,14 @@ p, div{
 	padding: 15px;
 	border: 5px solid black;
 	text-align: center;
-	color: red;
+	color: #0FFFFF;
 	background-color: #000000;
 }
 
 
 #theHeader{
 
-		background-image:url("lottery1.png");
+		background-image:url("images/lottery2.png");
 		background-repeat:no-repeat;
 		width: 1000px;
 		height: 200px;
@@ -51,8 +51,24 @@ p, div{
 		padding: 15px;
 		margin: 20px auto;
 		border: 5px solid black;
-		color: white;
+		color: #0FFFFF;
 		background-color: #000000;
+}
+
+	 
+button{
+    width: 160px;
+    background-color: #336666;
+    color: #0FFFFF;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	 margin-right: 12px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 #table{
