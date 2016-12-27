@@ -1,5 +1,5 @@
-var lottery_array = new Array(4);
-var player_array = new Array(4);
+var lottery_array = new Array(6);
+var player_array = new Array(6);
 var total_cash = 10.00;
 
 function controller(){
