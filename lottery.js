@@ -1,5 +1,7 @@
-var lottery_array = new Array(6);
-var player_array = new Array(6);
+var lottery_array = new Array(5);
+var lottery_lucky_array = new Array(2);
+var player_array = new Array(5);
+var player_lucky_array = new Array(2);
 var total_cash = 10.00;
 
 function controller(){
@@ -8,16 +10,16 @@ function controller(){
 	check_numbers();
 	
 	total_cash--;
-	document.getElementById("balance").innerHTML = "€"+total_cash;
+	document.getElementById("balance").innerHTML = "&euro; "+total_cash;
 }
 
 
 function lottery(){
 
-	
 	for (i=0; i<lottery_array.length; i++){
 		
 		var randomNumber = Math.floor(Math.random() * 50) + 1;
+	
 		
 		for(var j=0; j<lottery_array.length; j++){
 		
@@ -110,23 +112,23 @@ function check_numbers(){
 		document.getElementById("credits").innerHTML = "You lost";
 	}
 	if(matched == 1){
-		document.getElementById("credits").innerHTML = "You won €5.00";
+		document.getElementById("credits").innerHTML = "You won &euro; 5.00";
 		total_cash = total_cash + 5;
 		document.getElementById("balance").innerHTML =  total_cash;
 		
 	}
 	if(matched == 2){
-		document.getElementById("credits").innerHTML = "You won €10.00";
+		document.getElementById("credits").innerHTML = "You won &euro; 10.00";
 		total_cash = total_cash + 10;
 		document.getElementById("balance").innerHTML = total_cash;
 	}
 	if(matched == 3){
-		document.getElementById("credits").innerHTML = "You won €20.00";
+		document.getElementById("credits").innerHTML = "You won &euro; 20.00";
 		total_cash = total_cash + 20;
 		document.getElementById("balance").innerHTML = total_cash;
 	}
 	if(matched == 4){
-		document.getElementById("credits").innerHTML = "You won €40.00";
+		document.getElementById("credits").innerHTML = "You won &euro; 40.00";
 		total_cash = total_cash + 40;
 		document.getElementById("balance").innerHTML = total_cash;
 	}
